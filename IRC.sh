@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+#Usage: IRC.sh nick "#channel"
+#Use with logging: IRC.sh nick "#channel" | tee irc.log
 nick="$1"
 room="$2"
 server="/dev/tcp/irc.libera.chat/6667"
